@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tampilan Spreadsheet Layar Penuh</title>
+    <style>
+        /* Menghilangkan margin dan padding default dari body */
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            overflow: hidden; /* Mencegah munculnya scroll bar pada body */
+        }
+        /* Gaya untuk iframe agar menjadi layar penuh */
+        .fullscreen-iframe {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: none; /* Menghilangkan border iframe */
+        }
+    </style>
+</head>
+<body>
+    <iframe class="fullscreen-iframe" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTxG_W3k_1VuncmGuMuT3CslIJczrq32EcfBqpqznIIRxWWxfDEK2PL12I0LwWT2sN3GeM5w4OYuPTg/pubhtml?widget=true&amp;headers=false"></iframe>
+</body>
+</html>
